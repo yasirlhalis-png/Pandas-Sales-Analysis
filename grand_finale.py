@@ -1,0 +1,27 @@
+import pandas as  pd
+
+df = pd.read_csv("data.csv", sep='\t')
+print(df)
+print(df.head(10))
+print(df[["Product Name","Total Sales"]])
+print(f"Clothing category : {df[df['Product Category'] == 'Clothing']}")
+print(f"Total Sales greather then : {df[df['Total Sales'] > 2000]}")
+print(f"sum Units Sold : {df['Units Sold'].sum()}")
+print(f"unit price mean : {df['Unit Price'].mean()}")
+print(f"desending : {df.sort_values('Total Sales' , ascending=False)}")
+print(f"ascending : {df.sort_values('Product Name')}")
+Total_Sales_Sum = df.groupby("Region")["Total Sales"].sum()
+print(f"Sum : {Total_Sales_Sum}")
+average_unit_sold = df.groupby("Product Category")["Units Sold"].mean()
+print(f"average : {average_unit_sold}")
+print(f"maximum : {df['Total Sales'].max()}")
+print(f"minimum : {df['Total Sales'].min()}")
+df["Tax"] = df["Total Sales"] * 0.05
+print(f"new_column_add : {df}")
+df["Sales_Status"] = ["High" if i > 1500 else "Low" for i in df["Total Sales"]]
+print(f"new_column_status : {df}")
+print(df["Product Category"].unique())
+print(df.iloc[16])
+print(df.iloc[1:10])
+print(df["Product Category"].rename("Category"))
+print(df.rename(columns={"Product Category": "Category"}, inplace=True))

@@ -1,0 +1,21 @@
+Order ID	Date	Product Category	Product Name	Units Sold	Unit Price	Total Sales	Region
+101	2025-01-01	Electronics	Headphones	25	150	3750	East
+102	2025-01-03	Clothing	T-Shirts	50	20	1000	West
+103	2025-01-04	Home Appliances	Blender	15	80	1200	North
+104	2025-01-05	Electronics	Smartphone	10	500	5000	East
+105	2025-01-06	Clothing	Jeans	20	40	800	South
+106	2025-01-07	Electronics	Laptop	8	900	7200	West
+107	2025-01-08	Home Appliances	Microwave	12	120	1440	South
+108	2025-01-09	Clothing	Jacket	18	60	1080	East
+109	2025-01-10	Electronics	Tablet	14	300	4200	North
+110	2025-01-11	Home Appliances	Vacuum Cleaner	10	150	1500	West
+111	2025-01-12	Clothing	Hoodie	30	35	1050	South
+112	2025-01-13	Electronics	Earbuds	40	50	2000	East
+113	2025-01-14	Home Appliances	Air Fryer	16	140	2240	North
+114	2025-01-15	Clothing	Shorts	22	25	550	West
+115	2025-01-16	Electronics	Gaming Console	6	400	2400	South
+116	2025-01-17	Home Appliances	Coffee Maker	14	90	1260	East
+117	2025-01-18	Clothing	Dress	28	45	1260	South
+118	2025-01-19	Electronics	Monitor	9	200	1800	West
+119	2025-01-20	Home Appliances	Toaster	20	40	800	North
+
